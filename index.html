@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2eeb40011f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="calculadora">
+      <div class="row linha">
+        <div class="celula col-12">
+          <input id="tela" class="tela" type="text" disabled="disabled" />
+        </div>
+      </div>
+      <!--div class="row linha">
+        <div class="celula col-3">
+          <button onclick="simbolo('raiz')" class="botao btn btn-dark">
+            √
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="addNumero('pi')" class="botao btn btn-dark">
+            π
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="addNumero('potência')" class="botao btn btn-dark">
+            ^
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="addNumero('fatorial')" class="botao btn btn-dark">
+            !
+          </button>
+        </div>
+      </div-->
+      <div class="row linha">
+        <div class="celula col-3">
+          <button onclick="comando('limpar')" class="botao btn btn-dark">
+            AC
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button
+            onclick="comando('parenteses')"
+            style="font-weight: 700"
+            class="botao btn btn-dark"
+          >
+            ( )
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('porcentagem')" class="botao btn btn-dark">
+            <i class="fa-solid fa-percent"></i>
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button
+            onclick="comando('dividir')"
+            style="font-weight: 700"
+            class="botao btn btn-dark"
+          >
+            /
+          </button>
+        </div>
+      </div>
+      <div class="row linha">
+        <div class="celula col-3">
+          <button onclick="numero('7')" class="botao btn btn-dark">7</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('8')" class="botao btn btn-dark">8</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('9')" class="botao btn btn-dark">9</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('multiplicar')" class="botao btn btn-dark">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row linha">
+        <div class="celula col-3">
+          <button onclick="numero('4')" class="botao btn btn-dark">4</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('5')" class="botao btn btn-dark">5</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('6')" class="botao btn btn-dark">6</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('subtrair')" class="botao btn btn-dark">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row linha">
+        <div class="celula col-3">
+          <button onclick="numero('1')" class="botao btn btn-dark">1</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('2')" class="botao btn btn-dark">2</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('3')" class="botao btn btn-dark">3</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('somar')" class="botao btn btn-dark">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row linha">
+        <div class="celula col-3">
+          <button onclick="numero('0')" class="botao btn btn-dark">0</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="numero('.')" class="botao btn btn-dark">.</button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('apagar')" class="botao btn btn-dark">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+        </div>
+        <div class="celula col-3">
+          <button onclick="comando('igual')" class="botao btn btn-dark">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+  </body>
+</html>
